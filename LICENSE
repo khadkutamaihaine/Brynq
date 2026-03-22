@@ -1,15 +1,21 @@
-Brynq Software License
+Brynq License
 
 Copyright (c) 2026 Gurjeet Grewal. All rights reserved.
 
-Brynq is free to download and use. You may install and run Brynq on
-any number of devices for personal or commercial purposes at no cost.
+WHAT YOU CAN DO:
+- Download, install, and use Brynq for free (personal or commercial)
+- Run Brynq on any number of your own devices
+- View the runtime source code that is installed on your machine
 
-You may NOT:
-- Copy, modify, or distribute the Brynq source code
-- Reverse-engineer, decompile, or disassemble Brynq software
-- Create derivative works based on Brynq
-- Remove or alter any proprietary notices
+WHAT YOU CANNOT DO:
+- Redistribute Brynq or any of its components
+- Create competing products using Brynq code
+- Host Brynq's cloud services for others
+- Remove or alter proprietary notices
+
+The Brynq cloud orchestration service is proprietary software that
+runs exclusively on Brynq's servers. It is not included in user
+installations and is not covered by this license.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES,
