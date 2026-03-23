@@ -1,4 +1,5 @@
 <p align="center">
+  <img src="brynq-logo.jpg" alt="Brynq" width="120" />
   <h1 align="center">Brynq</h1>
   <p align="center"><strong>All your AI models. One app.</strong></p>
 </p>
