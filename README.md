@@ -28,28 +28,40 @@ You: "Research the latest on solid-state batteries and summarize the key breakth
 
 ## Get started
 
-### Download the desktop app
+### Option 1: Download the desktop app (easiest)
+
+No Python needed. Just download, install, and run.
 
 <p>
-  <a href="https://github.com/khadkutamaihaine/Brynq/releases/latest/download/install-brynq.bat">
-    <strong>Install for Windows</strong>
+  <a href="https://github.com/khadkutamaihaine/Brynq/releases/latest/download/Brynq_0.3.0_x64-setup.exe">
+    <strong>Download for Windows (.exe)</strong>
   </a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://github.com/khadkutamaihaine/Brynq/releases/latest/download/install-brynq.sh">
-    <strong>Install for macOS / Linux</strong>
-  </a>
+  macOS / Linux coming soon
 </p>
 
-### Or install via terminal
+### Option 2: Install via pip
+
+Requires Python. If you don't have it, install these first:
+
+**What you need:**
+
+| Software | What it does | Get it |
+|----------|-------------|--------|
+| **Python 3.10+** | Runs Brynq | [python.org/downloads](https://www.python.org/downloads/) |
+| **Ollama** (optional) | Free local AI models (Llama, Mistral) | [ollama.com/download](https://ollama.com/download) |
+
+That's it. Google login and Claude detection are built in — no extra installs.
 
 ```bash
 pip install brynq
 
-brynq-runtime start     # Opens the app
-brynq-runtime chat      # Terminal chat
+brynq-runtime start     # Opens the app in your browser
 brynq-runtime models    # See all detected models
 brynq-runtime status    # Check connections
 ```
+
+Brynq will automatically detect everything on your machine — Ollama models, Claude CLI, Google account.
 
 ---
 
@@ -61,7 +73,7 @@ One click. Uses your existing Google account to access Gemini. No API keys, no c
 
 ### 2. Brynq detects your models
 
-Have Claude installed? Ollama running? ChatGPT CLI? Brynq finds them automatically and adds them to your team. Nothing to configure.
+Have Claude installed? Ollama running? Brynq finds them automatically. Nothing to configure.
 
 | Model | How Brynq finds it | Cost to you |
 |-------|-------------------|-------------|
@@ -83,40 +95,59 @@ You ask once. Brynq figures out which model handles which part, then executes lo
 
 ---
 
+## Marketplace
+
+Specialized AI agents built by experts. Use them directly from Brynq — they run on our servers, so you never download the model.
+
+| Agent | What it does |
+|-------|-------------|
+| **Civil Engineer** | Structural analysis, beam design, code compliance (AISC, IS 456) |
+| **Sigma ML Engineer** | Model drift detection, health audits, training oversight |
+| **Delta Data Pipeline** | Schema validation, freshness monitoring, data quality |
+| **Omega Compliance** | Regulatory tracking, audit trails, policy enforcement |
+| **Alpha Performance** | Latency profiling, bottleneck detection, capacity planning |
+| **Theta Infrastructure** | Service health, deployment validation, incident diagnosis |
+| **Conductor Lifecycle** | Standup generation, task prioritization, sprint health |
+
+Free during early access. [Learn more at brynq.ai](https://brynq.ai)
+
+---
+
 ## Why Brynq
 
-**No extra charges** — Uses the subscriptions and tools you already have. Google OAuth uses your Google account. Claude uses your existing installation. Ollama is free. No surprise bills.
+**No extra charges** — Uses the subscriptions and tools you already have. No surprise bills.
 
-**Private by default** — Local models run entirely on your computer. Your conversations never leave your machine. Cloud models are called directly from your machine to the provider.
+**Private by default** — Local models run entirely on your computer. Your data never leaves your machine.
 
-**Smarter together** — Models fact-check each other and build on each other's strengths. Together they produce better results than any single model.
+**Smarter together** — Models fact-check each other. Together they produce better results than any single model.
 
-**One conversation** — No more opening Claude in one tab, Gemini in another, and ChatGPT in a third. Ask once, get answers from your whole team, in one place.
+**One conversation** — Stop juggling tabs. Ask once, get answers from your whole team, in one place.
 
 ---
 
 ## Security
 
-- **Your keys stay local** — API keys and OAuth tokens are encrypted on your machine. Never sent to our servers.
+- **Your keys stay local** — Encrypted on your machine, never sent to our servers.
 - **Your data stays local** — Documents and conversations never leave your computer.
-- **Encrypted storage** — All credentials stored with Fernet encryption in a machine-bound vault.
 - **Tamper-proof** — Execution plans are cryptographically signed and time-limited.
 
 ---
 
 ## Requirements
 
-- Python 3.10+
-- Windows, macOS, or Linux
-- Optional: [Ollama](https://ollama.com/download) for free local models
+| | Minimum | Recommended |
+|--|---------|-------------|
+| **OS** | Windows 10, macOS 12, Ubuntu 20.04 | Latest |
+| **RAM** | 8 GB | 16 GB+ (for local models) |
+| **GPU** | Not required | Any NVIDIA GPU (for faster local inference) |
+| **Python** | 3.10+ (pip install only) | 3.11+ |
+| **Disk** | 500 MB (Brynq only) | 10 GB+ (with Ollama models) |
 
 ---
 
 ## License
 
 See [LICENSE](LICENSE) for details.
-
----
 
 **Website:** [brynq.ai](https://brynq.ai)
 
