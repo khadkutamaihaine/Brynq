@@ -121,7 +121,7 @@ brynq.ai (Cloud)                          User's Machine
 
 - [brynq.ai](https://brynq.ai) — Platform
 - [Marketplace](https://brynq.ai/marketplace) — 2,600+ AI tools
-- [Pricing](https://brynq.ai/pricing) — Free platform, 15% marketplace commission
+- [Pricing](https://brynq.ai/pricing)
 - [Documentation](https://brynq.ai/docs) — Guides and API reference
 
 ---
