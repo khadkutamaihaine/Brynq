@@ -6,7 +6,7 @@
 
 ---
 
-Orchestrate Claude, Gemini, GPT, Llama, and **5,200+ AI tools** from one platform. Your team brings their own AI subscriptions. Brynq makes them work together — and gets smarter every time.
+Orchestrate Claude, Gemini, GPT, Llama, and **2,600+ AI tools** from one platform. Your team brings their own AI subscriptions. Brynq makes them work together — and gets smarter every time.
 
 ```
 You: "Analyze our Q1 pipeline and flag deals at risk"
@@ -50,7 +50,7 @@ One prompt, multiple AI models working together. Brynq picks the right strategy 
 | **Sequential** | A passes context to B to C | Multi-step workflows |
 | **Swarm** | Up to 20 agents working in parallel | Large projects |
 
-### 5,200+ tools, one marketplace
+### 2,600+ tools, one marketplace
 Connect to any API, database, or service. GitHub, Salesforce, Slack, Stripe, PostgreSQL, and thousands more. Install with one click or let Brynq auto-detect what you need.
 
 ```
@@ -122,7 +122,7 @@ brynq.ai (Cloud Brain)                    Your Machine
 |   Model scorer           |   metadata   |   Agent Bridge  --> Tools |
 |   Quality evaluator      |   only       |   Memory Engine           |
 |                          |              |   Security Sandbox        |
-| Marketplace (5,200+)     |              |                           |
+| Marketplace (2,600+)     |              |                           |
 | Agent Registry           |              | Your data stays here.     |
 +--------------------------+              +---------------------------+
 ```
@@ -132,7 +132,7 @@ brynq.ai (Cloud Brain)                    Your Machine
 ## Links
 
 - [brynq.ai](https://brynq.ai) — Platform
-- [Marketplace](https://brynq.ai/marketplace) — 5,200+ tools
+- [Marketplace](https://brynq.ai/marketplace) — 2,600+ tools
 - [Pricing](https://brynq.ai/pricing)
 - [Documentation](https://brynq.ai/docs)
 
