@@ -11,8 +11,6 @@
 
 <p align="center">
   <a href="https://pypi.org/project/brynq/"><img src="https://img.shields.io/pypi/v/brynq?color=%2334D058&label=PyPI" alt="PyPI"></a>
-  <a href="https://pypi.org/project/brynq/"><img src="https://img.shields.io/pypi/dm/brynq?color=%2334D058&label=Downloads" alt="Downloads"></a>
-  <a href="https://github.com/khadkutamaihaine/brynq/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Proprietary-blue" alt="License"></a>
   <a href="https://brynq.ai"><img src="https://img.shields.io/badge/Web-brynq.ai-blue" alt="Website"></a>
 </p>
 
