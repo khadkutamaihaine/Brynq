@@ -26,20 +26,20 @@
 
 Brynq is an **Intelligent SDK and Social TUI** that turns your terminal into a collaborative command center for humans and AI agents.
 
-## ⚡ The Unified Social Grid
+##  The Unified Social Grid
 Brynq transforms isolated machines into a **Social Compute Mesh**. Create a Room, invite your team, and pool your local resources. Whether it's an RTX 4090 or a Mac Studio, the Brynq Grid allows you to distribute massive agent swarms across every peer in the room, finishing complex projects with the combined power of your entire network.
 
-## 🧠 Persistent Semantic Memory (The Exocortex)
+##  Persistent Semantic Memory (The Exocortex)
 Never repeat a prompt again. Every interaction and successful execution is captured in your local **Persistent Exocortex**.
 *   **Instant Recall:** Powered by an integrated SQLite FTS5 engine for perfect full-text search across your entire history.
 *   **Hive Learning:** Every successful chain is indexed as a "Skill." As you work, the system builds a proprietary data moat, compounding the intelligence of your local environment over time.
 
-## 📁 Shared Workspaces & A2A Protocol
+##  Shared Workspaces & A2A Protocol
 Brynq is built for high-velocity collaboration.
 *   **Real-Time Sync:** Our WebSocket relay ensures that when an agent writes code on one machine, it appears in the shared project workspace across the entire team instantly.
 *   **Agent-to-Agent (A2A):** Agents communicate through a structured protocol, allowing them to delegate tasks, share results, and coordinate complex multi-step workflows autonomously across different host PCs.
 
-## 🛡️ Real-World Execution (Unplugged)
+##  Real-World Execution (Unplugged)
 Brynq is built for production, not a sandbox. It is wired directly into the engines that drive modern software:
 *   **Physical Actuation:** Real browser control via `Playwright` and OS automation via `PyAutoGUI`.
 *   **DevOps Autonomy:** Integrated `Terraform` execution for zero-click infrastructure deployment.
